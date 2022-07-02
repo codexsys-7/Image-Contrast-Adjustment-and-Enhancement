@@ -4,7 +4,7 @@
 Color Retinal image enhancement project deals with enhancing the quality of the image of an eye. So basically retinal imaging is a process of capturing retinal images of an eye which are very complicated and requires a lot of processing and sophisticated machines are used to capture those images. Now when we look at one of those images we might see that the images might be kind of little blur or brightness might be low or high. So here we have applied some techniques, such as contrast adjustment and increasing the luminosity of the images to enhance the quality of an eye which might help the doctors or professional working on this domain to get a clear view of the project/image they are looking for.
 
 # _**Base Paper**_
-+https://www.academia.edu/51841498/Analytical_Adjustment_of_Image_Contrast
++ https://www.academia.edu/51841498/Analytical_Adjustment_of_Image_Contrast
 
 # _**Project Methodology**_
 So, in order to get the contrast adjustment and enhancement unlike traditional  Image Enhance library, we have gone with Equalization histogram where we have converted our image in the form of a histogram and wherever we found that the bins are clustered around, the equilize_hist(), that we are going to use, what it does is it will stretch out that portion of image making the specific object in that image to be highlighted than usual. Apart from this technique we have also used some basic OpenCV filters to enhance the quality of an image such as Adjusting the brightness using filters, threshold adjustment, sharpening the image.
@@ -83,7 +83,7 @@ Now you are ready to use jupyter on this environment and start with your project
 **If you face any issue while setting up, please feel free to read the How to create a new environemnt in anaconda and you can click on the below link given at the end to get more detailed explanation.
 3. Install necessary libraries from requirements.txt file provided.
 4. Run pip install -r requirements.txt or conda install requirements.txt (Requirements.txt is a text file consisting of all the necessary libraries required for executing this python file. If it gives any error while installing libraries, you might need to install them individually.)
-5. Run main.py "path of image to test" in your anaconda terminal, ex: main.py test_data/01.jpg, and make sure to change the path where you executablee fiels are located, please follow the link on how to set up anaconda environemtn to execute files.
+5. Run main.py "path of image to test" in your anaconda terminal, ex: main.py test_data/01.jpg, and make sure to change the path where you executable files are located, please follow the link on how to set up anaconda environment to execute files.
 https://techieyantechnologies.com/2022/06/get-started-with-creating-new-environment-in-anaconda-configuring-jupyter-notebook-and-installing-libraries-using-requirements-txt-2/
 
 # _**Data Description**_
